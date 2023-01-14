@@ -1,0 +1,21 @@
+CREATE TABLE Book(
+	Id int PRIMARY KEY NOT NULL,
+	Title NVARCHAR(100) NOT NULL,
+	Description NVARCHAR(MAX) NOT NULL,
+	Rating decimal NOT NULL,
+	ISBN NVARCHAR(13) NOT NULL,
+	PublicationDate Datetime2 NOT NULL
+)
+
+CREATE TABLE Author(
+	Id int PRIMARY KEY NOT NULL,
+	FirstName NVARCHAR(50) NOT NULL,
+	LastName NVARCHAR(50) NOT NULL,
+	BirthDate Datetime2 NOT NULL,
+	Gender bit NOT NULL
+)
+
+CREATE TABLE BookAuthor(
+	BookId int FOREIGN KEY REFERENCES Book NOT NULL,
+	AuthorId int FOREIGN KEY REFERENCES Author NOT NULL
+)
