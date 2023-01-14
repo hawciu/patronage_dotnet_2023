@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "patronage_dotnet_2023", "patronage_dotnet_2023.csproj", "{01340DF5-C46A-4D8A-B8B7-5355B1F7DDDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01340DF5-C46A-4D8A-B8B7-5355B1F7DDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01340DF5-C46A-4D8A-B8B7-5355B1F7DDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01340DF5-C46A-4D8A-B8B7-5355B1F7DDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01340DF5-C46A-4D8A-B8B7-5355B1F7DDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D660333-EB3B-4A9F-A6F9-E0D18592A4CA}
+	EndGlobalSection
+EndGlobal
