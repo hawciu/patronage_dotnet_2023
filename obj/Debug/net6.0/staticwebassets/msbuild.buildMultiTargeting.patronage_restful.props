@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\patronage_restful.props" />
+</Project>
